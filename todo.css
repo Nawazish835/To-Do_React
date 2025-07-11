@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    background: darkslategray;
+}
+h1{
+    text-align: center;
+    color: coral;
+    margin-top: 5rem;
+}
+h2{
+    text-align: center;
+    margin-top: 1.5rem;
+    color: burlywood;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+input{
+    height: 3rem;
+    width: 25rem;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: none;
+    background: wheat;
+    font-size: x-large;
+    padding: 2px;
+}
+.button{
+    height: 3rem;
+    width: 5rem;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: lightcoral;
+    font-size: x-large;
+    cursor: pointer;
+}
+.list-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+li{
+    background: wheat;
+    height: 2.5rem;
+    width: 25rem;
+    font-size: x-large;
+    border-radius: 10px;
+    padding: 1px 0 0 2px;
+    text-decoration: none;
+    margin: 1.5rem;
+}
+.icon{
+    height: 2.4rem;
+    width: 3rem;
+    font-size: x-large;
+    border-radius: 10px;
+    margin-left: 2px;
+    cursor: pointer;
+}
+.check-btn{
+    background: lightgreen;
+}
+.del-btn{
+    background: red;
+}
+.span{
+    display: flex;
+    justify-content: space-between;
+}
+.clear{
+    display: flex;
+    justify-content: center;
+}
+.clear-btn{
+    height: 3rem;
+    width: 5rem;
+    font-size: large;
+    border-radius: 5px;
+    background: red;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+}
+ul{
+    list-style-type: none;
+}
